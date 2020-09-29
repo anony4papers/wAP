@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 import sys
-sys.path.append('/home/yantao/workspace/projects/baidu/aisec/perceptron')
+sys.path.append('/home/anony4papers/workspace/projects/baidu/aisec/perceptron')
 import os
 import numpy as np
 import matplotlib.pyplot as plt
