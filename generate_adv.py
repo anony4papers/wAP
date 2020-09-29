@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 import sys
-sys.path.append('/home/wchai01/workspace/perceptron-benchmark')
+sys.path.append('/home/anony4papers/workspace/perceptron-benchmark')
 
 from PIL import Image
 import argparse
@@ -62,7 +62,7 @@ def main(args):
     for _, image_name in enumerate(tqdm(image_name_list)):
 
         temp_img_path_benign = os.path.join(input_dir, image_name)
-        #temp_img_path_benign = '/data1/weiheng/bdd/benign/'+image_name
+        #temp_img_path_benign = '/data1/anony4papers/bdd/benign/'+image_name
         image_benign = load_image(
                 shape=(416, 416), bounds=(0, 1),
                 fname=temp_img_path_benign,
@@ -93,7 +93,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Squeeze image generation.")
-    parser.add_argument('--data-dir', type=str, default='/data1/weiheng/')
+    parser.add_argument('--data-dir', type=str, default='/data1/anony4papers/')
     parser.add_argument('--imgs-dir', type=str, default='bdd')#bdd
     parser.add_argument('--attack-mtd', type=str, default='bright_numberchange')
     args = parser.parse_args()
