@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 import sys
-sys.path.append('/home/yantao/workspace/projects/perceptron-benchmark')
+sys.path.append('/home/anony4papers/workspace/projects/perceptron-benchmark')
 
 from PIL import Image
 import numpy as np 
@@ -281,7 +281,7 @@ def main_from_pickle(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="wAP/mAP calculation.")
-    parser.add_argument('--data-dir', type=str, default='/data1/weiheng/')
+    parser.add_argument('--data-dir', type=str, default='/data1/anony4papers/')
     parser.add_argument('--imgs-dir', type=str, default='bdd10k_test')
     parser.add_argument('--squeeze-type', type=str, default='bit_7')
     args = parser.parse_args()
