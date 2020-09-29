@@ -72,5 +72,4 @@ def _get_length(vid):
     return L
 
 if __name__ == "__main__":
-    #video2imges("/home/yantao/datasets/bdd_parts/cad02f4a-dd2c4b41.mov", "/home/yantao/datasets/bdd_parts", sub_folder='benign')
-    download_pervasive_dataset('/data1/weiheng/bddvideo/video5/', "/data1/weiheng/frames/part5/")
+    download_pervasive_dataset('/data1/anony4papers/bddvideo/video5/', "/data1/anony4papers/frames/part5/")
