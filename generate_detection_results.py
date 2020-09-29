@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 import sys
-sys.path.append('/home/wchai01/workspace/perceptron-benchmark')
+sys.path.append('/home/anony4papers/workspace/perceptron-benchmark')
 
 from PIL import Image
 import argparse
@@ -100,7 +100,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Detection output generation.")
-    parser.add_argument('--data-dir', type=str, default='/data1/weiheng/')
+    parser.add_argument('--data-dir', type=str, default='/data1/anony4papers/')
     parser.add_argument('--imgs-dir', type=str, default='bdd')#city
     parser.add_argument('--squeeze-type', type=str, default='bit_7')
     args = parser.parse_args()
