@@ -1,7 +1,7 @@
 import os
 import pdb
 
-dir_path = "/home/yantao/datasets/bdd_parts/cabc30fc-e7726578/benign/"
+dir_path = "/home/anony4papers/datasets/bdd_parts/cabc30fc-e7726578/benign/"
 
 img_file_list = os.listdir(dir_path)
 for img_file in img_file_list:
